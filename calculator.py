@@ -92,7 +92,7 @@ def divide(*args):
     # args provided.
     ldiv = reduce((lambda x, y: int(x) / int(y)), args)
 
-    return '<h1>The division of the array {} is: {}</h1>'.format(args, lmult)
+    return '<h1>The division of the array {} is: {}</h1>'.format(args, ldiv)
 
 
 
